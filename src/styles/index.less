@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: 微软雅黑;
+    -webkit-tap-highlight-color: #00000000;
+    outline: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    line-height: 1.5715;
+    font-size: 14px;
+    color: #000;
+    background: var(--color-bg-1);
+}
+
+#app {
+    background: var(--color-bg-1);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0003;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+    background-color: #0000004d;
+}
